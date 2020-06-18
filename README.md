@@ -77,6 +77,17 @@ const _layerObjArray = [
 ];
 ```
 
+### Remove layer from settings 
+
+```javascript
+const _layerObjArray = [
+	{ "defaultName":_layerLabel+" 1",	"userName":"Background",	"color":UIColors.BLUE },
+	{ "defaultName":_layerLabel+" 2",	"userName":"Graphic", 		"color":UIColors.LIGHT_BLUE },
+	{ "defaultName":_layerLabel+" 3",	"userName":"Text",			"color":UIColors.RED },
+	{ "defaultName":_layerLabel+" 4",	"userName":"Foreground",	"color":UIColors.GREEN }
+];
+```
+
 
 ## License
 
