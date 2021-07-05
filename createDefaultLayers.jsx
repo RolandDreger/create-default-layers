@@ -44,7 +44,7 @@ __main();
 
 function __main() { 
   
-  if(app.documents.length === 0) { 
+  if(app.documents.length === 0 || app.layoutWindows.length === 0) { 
 		alert(localize({ 
 			en:"A document must be open to execute the script!",
 			de:"F\u00FCr die Ausf\u00FChrung des Skriptes ist ein ge\u00F6ffnetes Dokument erforderlich!" 
